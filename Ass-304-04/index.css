@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outerContainer{
+    
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blueBox{
+    height: 30%;
+    width: 100%;
+    background-color: #281857;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.textBox{
+    /* border:1px solid red; */
+    height: 30%;
+    width: 11%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+p{
+    color: white;
+}
+.SymbolBox{
+    /* border: 2px solid gray; */
+    height: 30%;
+    width: 10%;
+    /* background-color: white; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+}
+.ImageDiv1,.ImageDiv2{
+    color: white;
+}
